@@ -8,6 +8,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
+#import <GoogleMaps/GoogleMaps.h>
 
 @implementation ComMekansalTiGMapModule
 
@@ -34,6 +35,7 @@
 	[super startup];
 	
 	NSLog(@"[INFO] %@ loaded",self);
+    [GMSServices provideAPIKey:@"YOUR_API_KEY"]; //this should be moved to another location
 }
 
 -(void)shutdown:(id)sender
