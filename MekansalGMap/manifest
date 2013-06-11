@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0
+apiversion: 2
+description: My module
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2013 by Your Company
+
+
+# these should not be edited
+name: MekansalGMap
+moduleid: com.mekansal.gmapios
+guid: 45cae3da-4232-49d0-ba7e-0b65ce0bc932
+platform: iphone
+minsdk: 3.1.0.GA
